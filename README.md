@@ -1,5 +1,6 @@
 #Linux Server Lab (Oracle Path)
 ## Objetivo
+<<<<<<< HEAD
 Configurar um servidor linux simulando ambiente de Data Center
 
 ---
