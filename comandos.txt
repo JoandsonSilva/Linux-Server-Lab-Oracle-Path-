@@ -1,0 +1,5 @@
+yes > /dev/null &
+top
+ps aux | grep yes
+ps -fp PID
+kill -9 PID

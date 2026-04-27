@@ -1,34 +1,54 @@
 #Linux Server Lab (Oracle Path)
 ## Objetivo
-<<<<<<< HEAD
-Configurar um servidor linux simulando ambiente de Data Center
+Criar um laboratorio Linux local para praticar fundamentos de infraestrutura, suporte t'ection, monitoramento e troubleshooting, com foco em preparacao para ambientes de Data Center e Oracle Cloud
+
 
 ---
+#Ambiente utilizado
+-Macbook
+-UTM
+-Ubuntu Server ARM64
+-Terminal Linux
+-Git e Github via SSH
 
 ## Etapas realizadas
 
--instalação do Ubuntu Server (arm64)
--Configuração via UTM (Mac)
--Oriencatao de usuario
--Ativação de SSH
+-Instalação do Ubuntu Server (arm64) em maquina virtual
+-Configuração inicial do sistema
+-Criacao de usuario
+-Ativacao do OpenSSH Server
+-Correcao de problema de boot apos instalacao
+-Configuracao de Git
+-Geracao de chave SSH
+-Conexao autenticada com GitHub
+Publicacao do projeto no repositorio remoto
 
 ---
 
 ## Problema enfrentado
+Boot retornandndo para o intalador apos afinalizar a intalacao, a VM voltou para a tela inicial do instalador.
 
-Sistema nao iniciava apos instalção ( boot retornava para ISO)
----
-\# Solucao
+##Diagnostico
+O Sistema ainda estava inicializando pela midia de instalacao ISO
 
-Acesso ao Boot Manager e seleção manual de opção "Ubuntu"
+## Solucao aaplicada
+Foi acessado o Boot Manager e selecionada manualmente a opcao 'Ubuntu', permitindo a inicializacao
+
+##Monitoramento basico do sistema
+
 ---
 ##Comandos utilizados
+
 
 -top
 -free -m
 who
 is
 pwd
+w
+last
+ps aux
+ps -fp PID
 
 
 ---
@@ -41,3 +61,11 @@ Sistema leve  (~300MB de mem'oria em uso)
 -Acesso via SSH
 -Simulação de falhas
 -Monitoramento
+
+##Evidencias
+
+###Uso de CPU (top)
+
+###Processo identificado
+
+###Checagem de memoria
