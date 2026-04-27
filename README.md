@@ -1,4 +1,5 @@
 #Linux Server Lab (Oracle Path)
+
 ## Objetivo
 Criar um laboratorio Linux local para praticar fundamentos de infraestrutura, suporte técnico, monitoramento e troubleshooting, com foco em preparação para ambientes de Data Center e Oracle Cloud
 
@@ -68,4 +69,9 @@ Sistema leve  (~300MB de mem'oria em uso)
 
 ###Processo identificado
 
+<<<<<<< HEAD
 ###Checagem de memória
+=======
+###Checagem de memoria
+Joandson Oliveira
+
