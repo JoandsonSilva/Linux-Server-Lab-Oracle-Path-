@@ -1,6 +1,6 @@
 #Linux Server Lab (Oracle Path)
 ## Objetivo
-Criar um laboratorio Linux local para praticar fundamentos de infraestrutura, suporte t'ection, monitoramento e troubleshooting, com foco em preparacao para ambientes de Data Center e Oracle Cloud
+Criar um laboratorio Linux local para praticar fundamentos de infraestrutura, suporte técnico, monitoramento e troubleshooting, com foco em preparação para ambientes de Data Center e Oracle Cloud
 
 
 ---
@@ -13,28 +13,28 @@ Criar um laboratorio Linux local para praticar fundamentos de infraestrutura, su
 
 ## Etapas realizadas
 
--Instalação do Ubuntu Server (arm64) em maquina virtual
+-Instalação do Ubuntu Server (arm64) em máquina virtual
 -Configuração inicial do sistema
 -Criacao de usuario
--Ativacao do OpenSSH Server
--Correcao de problema de boot apos instalacao
--Configuracao de Git
--Geracao de chave SSH
--Conexao autenticada com GitHub
-Publicacao do projeto no repositorio remoto
+-Ativação do OpenSSH Server
+-Correcão de problema de boot apos instalacao
+-Configuração de Git
+-Geracão de chave SSH
+-Conexão autenticada com GitHub
+Publicacão do projeto no repositório remoto
 
 ---
 
 ## Problema enfrentado
-Boot retornandndo para o intalador apos afinalizar a intalacao, a VM voltou para a tela inicial do instalador.
+Boot retornandndo para o intalador apos afinalizar a intalação, a VM voltou para a tela inicial do instalador.
 
 ##Diagnostico
-O Sistema ainda estava inicializando pela midia de instalacao ISO
+O Sistema ainda estava inicializando pela midia de instalação ISO
 
 ## Solucao aaplicada
-Foi acessado o Boot Manager e selecionada manualmente a opcao 'Ubuntu', permitindo a inicializacao
+Foi acessado o Boot Manager e selecionada manualmente a opção 'Ubuntu', permitindo a inicialização
 
-##Monitoramento basico do sistema
+##Monitoramento básico do sistema
 
 ---
 ##Comandos utilizados
@@ -56,16 +56,16 @@ ps -fp PID
 Sistema leve  (~300MB de mem'oria em uso)
 ---
 
-##Proximos passos
+##Próximos passos
 
 -Acesso via SSH
 -Simulação de falhas
 -Monitoramento
 
-##Evidencias
+##Evidências
 
 ###Uso de CPU (top)
 
 ###Processo identificado
 
-###Checagem de memoria
+###Checagem de memória
